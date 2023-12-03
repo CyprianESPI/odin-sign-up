@@ -21,6 +21,13 @@
     width: 30vw;
 }
 
+.hero-title {
+    margin-top: 50%;
+    display: flex;
+    justify-content: center;
+    /** X-axis align **/
+}
+
 /* We lose the flexgrid resize behaviour and text will overflow if too big*/
 .hero-photo-source {
     position: absolute;
