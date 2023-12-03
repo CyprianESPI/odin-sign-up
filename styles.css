@@ -4,14 +4,17 @@
 }
 
 * {
-    font-family: "Norse Bold";
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 2px solid red;
 }
+
+/*border: 2px solid red;*/
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 /* Todo: change layout for smartphone*/
@@ -29,6 +32,8 @@
 }
 
 .hero-title {
+    font-family: "Norse Bold";
+    font-size: 75px;
     padding: 10px;
     margin-top: 50%;
     display: flex;
@@ -38,10 +43,16 @@
         /*  40% opaque black */
 }
 
-/* We lose the flexgrid resize behaviour and text will overflow if too big*/
 .hero-photo-source {
-    position: absolute;
-    bottom: 0;
+    font-size: small;
+    font-weight: normal;
+    margin-top: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-photo-source:nth-of-type(1)>a {
+    color: white;
 }
 
 .main-container {
