@@ -6,6 +6,7 @@
 * {
     font-family: "Norse Bold";
     margin: 0;
+    border: 2px solid red;
 }
 
 .flex-container {
@@ -18,6 +19,12 @@
     background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
     height: 100vh;
     width: 30vw;
+}
+
+/* We lose the flexgrid resize behaviour and text will overflow if too big*/
+.hero-photo-source {
+    position: absolute;
+    bottom: 0;
 }
 
 .main-container {
