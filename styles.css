@@ -73,7 +73,6 @@ main:first-child h3 {
 
 .form-container {
     background-color: aliceblue;
-    margin-top: 0%;
     padding: 5%;
 }
 
@@ -96,11 +95,12 @@ input {
     position: absolute;
     width: 150px;
     height: 60px;
-    top: 45%;
+    top: 80%;
     background-color: #596D48;
     color: white;
 }
 
 .log-in {
     font-weight: normal;
+    margin-top: 5%;
 }
