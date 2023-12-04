@@ -63,6 +63,7 @@
 
 .form-container {
     background-color: aliceblue;
+    margin-top: 10%;
 }
 
 form {
@@ -77,4 +78,19 @@ input {
 
 .form-input-container {
     width: 30vw;
+}
+
+.submit-btn {
+    border-radius: 15px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 45%
+}
+
+.log-in {
+    font-weight: normal;
+    width: 100%;
+    margin-top: 5%;
+    display: inline-block;
 }
