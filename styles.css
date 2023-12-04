@@ -90,6 +90,11 @@ input {
     width: 30vw;
 }
 
+#pwd_error_msg {
+    color: red;
+    height: 1em;
+}
+
 .submit-btn {
     border-radius: 15px;
     position: absolute;
